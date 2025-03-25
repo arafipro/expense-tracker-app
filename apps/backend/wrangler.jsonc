@@ -1,0 +1,14 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-23",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "expense-tracker-db",
+      "database_id": "1d0e3d88-1001-4beb-ad24-0ef25f2ab76b",
+      "migrations_dir": "drizzle/migrations"
+    }
+  ]
+}
