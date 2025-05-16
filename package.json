@@ -11,5 +11,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@gluestack-ui/alert-dialog": "^0.1.38",
+    "@legendapp/motion": "^2.4.0"
+  }
 }
